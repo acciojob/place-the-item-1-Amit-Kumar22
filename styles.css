@@ -1,26 +1,20 @@
-
-/* Your CSS Code here. */
-.container{
-	display: flex;
-	justify-content: space-between;
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
 }
-.block1,.block2,.block3{
-	width:80px;
-	height: 80px;
-	
+.item-3{
+	width:90px;
+	height:90px;
+	background-color:green;
 }
-.block1 h1,.block2 h1,.block3 h1{
-	margin: 0px;
+.item-1{
+	width:90px;
+	height:90px;
+	background-color:red;
 }
-.block1{
-	background-color: green;
-	align-item: start;
-}
-.block2{
-	background-color: red;
-}
-.block3{
-	background-color: blue;
-	align-item: end;
-	float: right;
+.item-2{
+	width:90px;
+	height:90px;
+	background-color:blue;
 }
